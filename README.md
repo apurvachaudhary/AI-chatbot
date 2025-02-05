@@ -11,25 +11,25 @@ This project is an AI-powered chatbot that allows users to query a product and s
 
 ## Installation & Setup
 
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/yourusername/AI-Chatbot-Assignment.git
 cd AI-Chatbot-Assignment
 
-Set Up Backend
+2.Set Up Backend
 Install Dependencies
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
 Backend runs at: http://localhost:8000
 
-Frontend Setup
+3.Frontend Setup
 cd frontend
 npm install
 npm start
 Frontend runs at: http://localhost:3000
 
-Database Setup
+4.Database Setup
 Install PostgreSQL and create the database:
 CREATE DATABASE chatbot_db;
 Run database migrations:
